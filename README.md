@@ -85,4 +85,12 @@ Les modèles ne sont pas encore figés ils sont à l'étude.
 
 ## Installation derrière le radiateur
 
+N'inversez pas la phase et le neutre, pour différencier les fils (en faisant très attention) munissez-vous de votre multimètre et prenez pour référence la terre.
+
+Phase + terre environ égale à 230V
+
+Neutre + terre environ égale à 0V
+
+Le PCB n'a pas de protection contre les inversions (excepté le module IRM mais attention quand même). 
+
 A faire + documenter.
