@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MOC3023M
+#
+DEF MOC3023M IC 0 40 Y Y 1 L N
+F0 "IC" 1550 300 50 H V L BNN
+F1 "MOC3023M" 1550 200 50 H V L BNN
+F2 "DIP762W51P254L851H508Q6N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "512-MOC3023M" 0 0 50 H I L BNN "Mouser_Part_Number"
+F5 "MOC3023M" 0 0 50 H I L BNN "Arrow_Part_Number"
+F6 "ON Semiconductor" 0 0 50 H I L BNN "Manufacturer_Name"
+F7 "MOC3023M" 0 0 50 H I L BNN "Manufacturer_Part_Number"
+F8 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/MOC3023M?qs=yRUxxYa83cjcpuqK%2Fq2htA%3D%3D" 0 0 50 H I L BNN "Mouser_Price-Stock"
+F9 "Optocoupler, Triac Driver Output, 5.3kV, 400V Min" 0 0 50 H I L BNN "Description"
+F10 "https://www.arrow.com/en/products/moc3023m/on-semiconductor" 0 0 50 H I L BNN "Arrow_Price-Stock"
+F11 "5.08mm" 0 0 50 H I L BNN "Height"
+DRAW
+P 2 0 0 10 200 100 1500 100 N
+P 2 0 0 10 1500 -300 1500 100 N
+P 2 0 0 10 1500 -300 200 -300 N
+P 2 0 0 10 200 100 200 -300 N
+X ANODE 1 0 0 200 R 40 40 0 0 B 
+X CATHODE 2 0 -100 200 R 40 40 0 0 B 
+X N/C 3 0 -200 200 R 40 40 0 0 N 
+X MAIN_TERM._2 6 1700 0 200 L 40 40 0 0 B 
+X NC~ 5 1700 -100 200 L 40 40 0 0 B 
+X MAIN_TERM._1 4 1700 -200 200 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
