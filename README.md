@@ -51,6 +51,7 @@ Pour le projet voici les composants utilisés :
 Les LED, le capteur de température et les résistances associées sont optionnels.
 Les connecteurs ZFKDS peuvent être remplacés par des borniers etc.
 Le condensateur n'est pas optionnel.
+Le microcontrôleur Arduino est remplaçable par d'autres (par exemple un PIC8F ou autres) mais le code ne sera pas portable sur les autres plateformes telles quelles.
 
 ## Projet KiCad
 Les fichiers KiCad sont situés dans le dossier KiCad. Les PCB sont gravés chez [JLCPCB](https://jlcpcb.com/).
@@ -76,11 +77,11 @@ Puis connectez votre Arduino et flashez le programme.
 
 Vous pouvez ouvrir le moniteur série à 9600 pour voir l'initialisation des composants.
 
-Le projet est en pause le temps de recevoir la carte SIM et de terminer la programmation.
+Attention à remplir le numéro de téléphone ou vous souhaitez recevoir les sms.
 
 ## Imprimante 3D
 
-Les modèles ne sont pas encore figés ils sont à l'étude.
+Les modèles ne sont pas encore figés ils sont à l'étude. (Imprimante 3D ou "boite" électrique)
 
 
 ## Installation derrière le radiateur
@@ -91,6 +92,5 @@ Phase + terre environ égale à 230V
 
 Neutre + terre environ égale à 0V
 
-Le PCB n'a pas de protection contre les inversions (excepté le module IRM mais attention quand même). 
+Le PCB n'a pas de protection contre les inversions, il est indispensable de brancher la phase sur l'entrée phase sinon le fil pilote ne fonctionnera pas. 
 
-A faire + documenter.
