@@ -81,10 +81,10 @@ Attention à remplir le numéro de téléphone ou vous souhaitez recevoir les sm
 
 ## Imprimante 3D
 
-Les modèles ne sont pas encore figés ils sont à l'étude. (Imprimante 3D ou "boite" électrique)
+Les modèles ne sont pas encore figés ils sont à l'étude. (Imprimante 3D ou boite de dérivation). PCB : 100x100mm environ
 
 
-## Installation derrière le radiateur
+## Installation
 
 N'inversez pas la phase et le neutre, pour différencier les fils (en faisant très attention) munissez-vous de votre multimètre et prenez pour référence la terre.
 
