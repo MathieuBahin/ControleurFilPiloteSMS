@@ -77,7 +77,7 @@ Puis connectez votre Arduino et flashez le programme.
 
 Vous pouvez ouvrir le moniteur série à 9600 pour voir l'initialisation des composants.
 
-Attention à remplir le numéro de téléphone ou vous souhaitez recevoir les sms.
+Attention à remplir le numéro de téléphone ou vous souhaitez recevoir les sms. La carte SIM ne doit pas avoir de code PIN.
 
 ## Imprimante 3D
 
