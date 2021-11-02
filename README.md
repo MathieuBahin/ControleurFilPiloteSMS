@@ -79,9 +79,9 @@ Vous pouvez ouvrir le moniteur série à 9600 pour voir l'initialisation des com
 
 Attention à remplir le numéro de téléphone ou vous souhaitez recevoir les sms. La carte SIM ne doit pas avoir de code PIN.
 
-## Imprimante 3D
+## Boitier
 
-Les modèles ne sont pas encore figés ils sont à l'étude. (Imprimante 3D ou boite de dérivation). PCB : 100x100mm environ
+J'ai choisi un boitier de dérivation de 110x110mm. Vous pouvez soit fixer la carte électronique au fond avec des vis / écrous ou mettre un point de colle dans les coins.
 
 
 ## Installation
@@ -94,3 +94,6 @@ Neutre + terre environ égale à 0V
 
 Le PCB n'a pas de protection contre les inversions, il est indispensable de brancher la phase sur l'entrée phase sinon le fil pilote ne fonctionnera pas. 
 
+Sectionnez le fil de phase et le fil de neutre (en ayant disjoncté), ajouter un domino de 3 sur la phase et 3 sur le neutre. Branchez le fil pilote du radiateur directement sur la carte. La phase venant du mur va dans le domino qui repart en 2 fils, vers le boitier et vers le radiateur. Idem pour le neutre.
+
+<img src="https://github.com/MathieuBahin/ControleurFilPiloteSMS/blob/main/Image/Montage.jpg" width="600" >
