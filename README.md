@@ -38,17 +38,15 @@ Pour le projet voici les composants utilisés :
 | [IRM-10-5](https://fr.rs-online.com/web/p/alimentations-a-decoupage/1358929/)    x1        |  10€   |
 | [ZFKDS gauche](https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/8045105/)  x1    | 0.50€ |
 | [ZFKDS droit](https://fr.rs-online.com/web/p/borniers-pour-circuits-imprimes/8045102/)   x1  | 16.70€ pour 50 |
-| [MOC3023M](https://fr.rs-online.com/web/p/optocoupleurs/6711422/) x2    | 2.59€ pour 5 |
-| Résistance 4.7k x1    | |
-| Résistance 1.8k x1    | |
-| Résistance 1k x1    | |
-| Résistance 680 x2    | |
-| Résistance 330 x2    | |
+| [MOC3043M](https://fr.rs-online.com/web/p/optocoupleurs/1611159) x2    | 7.76€ pour 10 |
+| Résistance 4.7k     | |
+| Résistance 1.8k     | |
+| Résistance 1k     | |
+| Résistance 680     | |
 | Diode 1N4007 x3    | |
-| Condensateur 100uF    | |
-| LED (optionnel) x3    | |
+| Condensateur 470µF [Farnell](https://fr.farnell.com/panasonic-electronic-components/eeufr0j471/condensateur-470-f-6-3v-20/dp/2805615)     | |
 
-Les LED, le capteur de température et les résistances associées sont optionnels.
+Le capteur de température et la résistance R9 associée sont optionnels.
 Les connecteurs ZFKDS peuvent être remplacés par des borniers etc.
 Le condensateur n'est pas optionnel.
 Le microcontrôleur Arduino est remplaçable par d'autres (par exemple un PIC8F ou autres) mais le code ne sera pas portable sur les autres plateformes telles quelles.
@@ -60,7 +58,7 @@ Attention pour le module SIM800L a la tension d'alimentation qui est spéciale. 
 
 Une fois le PCB reçu je vous conseille de souder le transformateur en dernier.
 
-Si vous souhaitez faire une vérification sur le 230V à la sortie du fil pilote noté que votre multimètre ne vous indiquera pas 230/2V et si vous souhaitez vérifier avec un oscilloscope faite attention à utiliser une sonde différentielle !
+Si vous souhaitez faire une vérification sur le 230V à la sortie du fil pilote noté que votre multimètre ne vous indiquera pas 115V et si vous souhaitez vérifier avec un oscilloscope faite attention à utiliser une sonde différentielle !
 
 <img src="https://github.com/MathieuBahin/ControleurFilPiloteSMS/blob/main/Image/PCB.jpg" width="600" >
 
